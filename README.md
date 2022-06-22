@@ -23,3 +23,13 @@ The expected inputs and outputs are Inputs are:
 #### Terrain Visualization
 - In this part we will Include an option to graphically display the returned elevation files as either a 3D render plot or as a heatmap.
 ### Data Transformation
+Topographic wetness index (TWI) - as an additional column returned with geopandas dataframe
+
+- it is a useful model to estimate where water will accumulate in an area with elevation differences. It is a function of slope and the upstream contributing area
+
+### 3. Dependancies
+This package is dependent on the following python main packages.
+
+- PDAL
+- Laspy
+- Geopandas
