@@ -1,7 +1,7 @@
 import logging
 import sys
 from logging.handlers import TimedRotatingFileHandler
-from config import Config
+
 
 
 from pathlib import Path
@@ -20,10 +20,9 @@ class Config:
   IMG_PATH = DATA_PATH / "img"
   USGS_3DEP_PUBLIC_DATA_PATH = "https://s3-us-west-2.amazonaws.com/usgs-lidar-public/"
 
-
 FORMATTER = logging.Formatter("%(asctime)s — %(name)s — %(levelname)s — %(message)s")
 
-
+# log handler
 def get_console_handler():
   console_handler = logging.StreamHandler(sys.stdout)
   console_handler.setFormatter(FORMATTER)
