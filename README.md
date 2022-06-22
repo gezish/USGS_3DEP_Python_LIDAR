@@ -11,3 +11,15 @@ AgriTech are very interested in how water flows through a maize farm field. This
 - Seting up a github repo, integrate unit testing and CICD for proper code package test and deployment
 - Building a codebase that communicates with the provided data source and extract needed information based on the parameters passed.
 ### 2. Test and Implemetaions
+#### Data Fetching and Loading
+- Since, our task is to write a modular python code/package to connect to the API, query the data model to select with a specified input and get a desired output. For example, submit a boundary (GPS coordinates polygon) and receive back a raster of the height of the terrain within the boundary. 
+The expected inputs and outputs are Inputs are:
+
+    - Field boundary polygon in geopandas dataframe
+        - All CRS’s (`coordinate reference systems`) should be accepted 
+    - Desired output CRS
+- The sourse of the Point Cloud Data can be found here aws s3 ls --no-sign-request s3://usgs-lidar-public/
+
+#### Terrain Visualization
+- In this part we will Include an option to graphically display the returned elevation files as either a 3D render plot or as a heatmap.
+### Data Transformation
