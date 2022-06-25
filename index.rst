@@ -11,6 +11,9 @@ Welcome to lidar's documentation!
    :caption: Contents:
 
 
+   docs/
+
+
 
 Indices and tables
 ==================
