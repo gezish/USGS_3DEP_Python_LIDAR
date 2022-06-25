@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>scripts package &#8212; USGS 3DEP lidar Analysis 06-25-2022 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="scripts-package">
+<h1>scripts package<a class="headerlink" href="#scripts-package" title="Permalink to this headline">¶</a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="scripts.device_conn.html">scripts.device_conn package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scripts.device_conn.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scripts.device_conn.html#scripts-device-conn-lidartest-module">scripts.device_conn.LidarTest module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scripts.device_conn.html#scripts-device-conn-lidartestplot-module">scripts.device_conn.LidarTestPlot module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scripts.device_conn.html#module-scripts.device_conn">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="module-scripts.config">
+<span id="scripts-config-module"></span><h2>scripts.config module<a class="headerlink" href="#module-scripts.config" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.config.Config">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.config.</span></span><span class="sig-name descname"><span class="pre">Config</span></span><a class="headerlink" href="#scripts.config.Config" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.config.Config.ASSETS_PATH">
+<span class="sig-name descname"><span class="pre">ASSETS_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">PosixPath('../assets')</span></em><a class="headerlink" href="#scripts.config.Config.ASSETS_PATH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.config.Config.DATA_PATH">
+<span class="sig-name descname"><span class="pre">DATA_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">PosixPath('../data')</span></em><a class="headerlink" href="#scripts.config.Config.DATA_PATH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.config.Config.IMG_PATH">
+<span class="sig-name descname"><span class="pre">IMG_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">PosixPath('../data/img')</span></em><a class="headerlink" href="#scripts.config.Config.IMG_PATH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.config.Config.LAZ_PATH">
+<span class="sig-name descname"><span class="pre">LAZ_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">PosixPath('../data/laz')</span></em><a class="headerlink" href="#scripts.config.Config.LAZ_PATH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.config.Config.LOG_FILE">
+<span class="sig-name descname"><span class="pre">LOG_FILE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">PosixPath('../log_manage/PythonLidara.log')</span></em><a class="headerlink" href="#scripts.config.Config.LOG_FILE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.config.Config.RANDOM_SEED">
+<span class="sig-name descname"><span class="pre">RANDOM_SEED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">27</span></em><a class="headerlink" href="#scripts.config.Config.RANDOM_SEED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.config.Config.REPO">
+<span class="sig-name descname"><span class="pre">REPO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'https://github.com/gezish/USGS_3DEP_Python_LIDAR'</span></em><a class="headerlink" href="#scripts.config.Config.REPO" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.config.Config.ROOT_PATH">
+<span class="sig-name descname"><span class="pre">ROOT_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">PosixPath('..')</span></em><a class="headerlink" href="#scripts.config.Config.ROOT_PATH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.config.Config.SHP_PATH">
+<span class="sig-name descname"><span class="pre">SHP_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">PosixPath('../data/shp')</span></em><a class="headerlink" href="#scripts.config.Config.SHP_PATH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.config.Config.TIF_PATH">
+<span class="sig-name descname"><span class="pre">TIF_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">PosixPath('../data/tif')</span></em><a class="headerlink" href="#scripts.config.Config.TIF_PATH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.config.Config.USGS_3DEP_PUBLIC_DATA_PATH">
+<span class="sig-name descname"><span class="pre">USGS_3DEP_PUBLIC_DATA_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'https://s3-us-west-2.amazonaws.com/usgs-lidar-public/'</span></em><a class="headerlink" href="#scripts.config.Config.USGS_3DEP_PUBLIC_DATA_PATH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="scripts-fetch-lidar-module">
+<h2>scripts.fetch_lidar module<a class="headerlink" href="#scripts-fetch-lidar-module" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="scripts-file-handler-module">
+<h2>scripts.file_handler module<a class="headerlink" href="#scripts-file-handler-module" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="scripts-gpd-helper-module">
+<h2>scripts.gpd_helper module<a class="headerlink" href="#scripts-gpd-helper-module" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="scripts-las-read-module">
+<h2>scripts.las_read module<a class="headerlink" href="#scripts-las-read-module" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="scripts-python-lidar-module">
+<h2>scripts.python_lidar module<a class="headerlink" href="#scripts-python-lidar-module" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="scripts-sub-sampler-module">
+<h2>scripts.sub_sampler module<a class="headerlink" href="#scripts-sub-sampler-module" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="scripts-vis-module">
+<h2>scripts.vis module<a class="headerlink" href="#scripts-vis-module" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="module-scripts">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-scripts" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.FrequencyStep">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.</span></span><span class="sig-name descname"><span class="pre">FrequencyStep</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.FrequencyStep" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></p>
+<p>An enumeration.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.FrequencyStep.oneHertz">
+<span class="sig-name descname"><span class="pre">oneHertz</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#scripts.FrequencyStep.oneHertz" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="scripts.FrequencyStep.oneTenthHertz">
+<span class="sig-name descname"><span class="pre">oneTenthHertz</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#scripts.FrequencyStep.oneTenthHertz" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.YdLidarG4">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.</span></span><span class="sig-name descname"><span class="pre">YdLidarG4</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">port</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">chunk_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">6000</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarG4" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#scripts.YdLidarX4" title="scripts.YdLidarX4"><code class="xref py py-class docutils literal notranslate"><span class="pre">scripts.YdLidarX4</span></code></a></p>
+<p>Deals with G4 version of Ydlidar from <a class="reference external" href="http://www.ydlidar.com/">http://www.ydlidar.com/</a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarG4.DecreaseCurrentFrequency">
+<span class="sig-name descname"><span class="pre">DecreaseCurrentFrequency</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">frequencyStep</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarG4.DecreaseCurrentFrequency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decrease current frequency by oneTenth or one depends on enum FrequencyStep</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarG4.DisableConstantFrequency">
+<span class="sig-name descname"><span class="pre">DisableConstantFrequency</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarG4.DisableConstantFrequency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Disable constant frequency
+default:Enable</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarG4.DisableLowPowerMode">
+<span class="sig-name descname"><span class="pre">DisableLowPowerMode</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarG4.DisableLowPowerMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Disable Low Power Consumption Mode(Turn motor and distance-measuring unit on StopScanning)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarG4.Disconnect">
+<span class="sig-name descname"><span class="pre">Disconnect</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarG4.Disconnect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Stop scanning and close serial communication with Lidar.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarG4.EnableConstantFrequency">
+<span class="sig-name descname"><span class="pre">EnableConstantFrequency</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarG4.EnableConstantFrequency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enables constant frequency
+default:Enable</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarG4.EnableLowPowerMode">
+<span class="sig-name descname"><span class="pre">EnableLowPowerMode</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarG4.EnableLowPowerMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enable Low Power Consumption Mode(Turn motor and distance-measuring unit off in StopScanning)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarG4.GetCurrentFrequency">
+<span class="sig-name descname"><span class="pre">GetCurrentFrequency</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarG4.GetCurrentFrequency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns current frequency in hertz</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarG4.GetCurrentRangingFrequency">
+<span class="sig-name descname"><span class="pre">GetCurrentRangingFrequency</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarG4.GetCurrentRangingFrequency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns current Ranging Frequency in khz</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarG4.GetLowPowerModeStatus">
+<span class="sig-name descname"><span class="pre">GetLowPowerModeStatus</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarG4.GetLowPowerModeStatus" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return True if Low Power Consumption Mode is Enable else return False</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarG4.IncreaseCurrentFrequency">
+<span class="sig-name descname"><span class="pre">IncreaseCurrentFrequency</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">frequencyStep</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarG4.IncreaseCurrentFrequency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Increase current frequency by oneTenth or one depends on enum FrequencyStep</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarG4.SwitchRangingFrequency">
+<span class="sig-name descname"><span class="pre">SwitchRangingFrequency</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarG4.SwitchRangingFrequency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Switch between ranging frequencies 4khz, 8khz and 9khz.
+default:9khz</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.YdLidarX4">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.</span></span><span class="sig-name descname"><span class="pre">YdLidarX4</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">port</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">chunk_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">6000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_value</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarX4" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Deals with X4 version of Ydlidar from <a class="reference external" href="http://www.ydlidar.com/">http://www.ydlidar.com/</a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarX4.Connect">
+<span class="sig-name descname"><span class="pre">Connect</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarX4.Connect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Begin serial connection with Lidar by opening serial port.
+Return success status True/False.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarX4.Disconnect">
+<span class="sig-name descname"><span class="pre">Disconnect</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarX4.Disconnect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Stop scanning and close serial communication with Lidar.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarX4.GetDeviceInfo">
+<span class="sig-name descname"><span class="pre">GetDeviceInfo</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarX4.GetDeviceInfo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return device information of lidar in form of dictonary
+{“model_number”:model_number,”firmware_version”:firmware_version,”hardware_version”:hardware_version,”serial_number”:serial_number}</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarX4.GetHealthStatus">
+<span class="sig-name descname"><span class="pre">GetHealthStatus</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarX4.GetHealthStatus" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns Health status of lidar
+True: good
+False: Not good</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarX4.Reset">
+<span class="sig-name descname"><span class="pre">Reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarX4.Reset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reboots the Lidar.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarX4.StartScanning">
+<span class="sig-name descname"><span class="pre">StartScanning</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarX4.StartScanning" title="Permalink to this definition">¶</a></dt>
+<dd><p>Begin the lidar and returns a generator which returns a dictionary consisting angle(degrees) and distance(meters).
+Return Format : {angle(1):distance, angle(2):distance,………………..,angle(360):distance}.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.YdLidarX4.StopScanning">
+<span class="sig-name descname"><span class="pre">StopScanning</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.YdLidarX4.StopScanning" title="Permalink to this definition">¶</a></dt>
+<dd><p>Stops scanning but keeps serial connection alive.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">USGS 3DEP lidar Analysis</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2022, Gezahegne Wondachew.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/docs/scripts.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

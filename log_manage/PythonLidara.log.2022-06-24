@@ -1,0 +1,2448 @@
+2022-06-24 23:22:57,227 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:23:34,347 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:23:34,347 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:23:34,347 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:24:11,215 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:24:11,215 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:24:11,215 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:24:11,215 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:24:11,215 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:25:22,705 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:25:22,705 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:25:22,705 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:25:22,705 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:25:22,705 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:25:22,705 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:25:22,705 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:27:53,509 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:27:53,509 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:27:53,509 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:27:53,509 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:27:53,509 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:27:53,509 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:27:53,509 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:27:53,509 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:27:53,509 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:12,722 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:12,722 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:12,722 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:12,722 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:12,722 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:12,722 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:12,722 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:12,722 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:12,722 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:12,722 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:12,722 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:45,618 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:47,263 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:28:48,376 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    df = pd.read_csv(path, na_values=missing_values)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:31:57,856 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.ASSETS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:43,374 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
+2022-06-24 23:36:50,477 — FileHandler — ERROR — usgs_3dep_metadata not found
+Traceback (most recent call last):
+  File "c:\Users\user\10-Accademy\W7\USGS_3DEP_Python_LIDAR\scripts\file_handler.py", line 49, in read_csv
+    path = logger.DATAS_PATH / str(name + '.csv')
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "c:\Users\user\.conda\envs\pdalpy_n\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\assets\\usgs_3dep_metadata.csv'
