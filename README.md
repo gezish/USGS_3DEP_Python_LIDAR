@@ -1,7 +1,10 @@
 # USGS_3DEP_Python_LIDAR
+![3dEP result](https://user-images.githubusercontent.com/99503155/175777023-ab11cd2b-f005-4ba2-8eda-088ba15b7320.PNG)
+
+
 A project to build an easy-to-use, reliable, and well-designed python `package` that domain experts and data scientists can use to fetch, visualize, and transform publicly available satellite and LIDAR data. 
 
-###Business objective
+### Business objective
 
 AgriTech are very interested in how water flows through a maize farm field. This knowledge will help us improve our research on new agricultural products being tested on farms. our work at an AgriTech, has a mix of domain experts, data scientists, data engineers. As part of the data engineering team, we are tasked to produce an easy to use, reliable and well designed python module that domain experts and data scientists can use to fetch, visualise, and transform publicly available satellite and LIDAR data. In particular, our code should interface with USGS 3DEP and fetch data using their API. The workflow for this project can be discribed as follows:
 ### 1. Preparation
